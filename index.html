@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mount-Trailers</title>
+    <link rel="icon" href="./assets/files/logo.png">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+
+    <!-- Background Video & Header -->
+
+    <div class="banner">
+        <video src="./assets/files/bgvid.mp4" type="video/mp4" autoplay muted loop></video>
+
+        <!-- Header -->
+        
+
+        <div class="content" id="home">
+            <nav>
+                <img src="./assets/files/logo.png" class="logo" alt="Logo" title="FirstFlight Travels">
+                <ul class="navbar">
+                    <li>
+                        <a href="#home">Home</a>
+                        <a href="#package">Packages</a>
+                        <a href="#locations">Locations</a>              
+                        <a href="./info.html">About Us</a>
+                        <a href="./booking.html">Book Now</a>
+                        <a href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>        
+                </form>
+            </nav>
+              
+
+            <div class="title">
+                <h1>Mount-Trailers </h1>
+                <p>"Your Gateway to Serene Uttarakhand Experiences"</p>
+
+                <div class="wrapper">
+                    <form action="#">
+                        <div class="h5 font-weight-bold text-center mb-3" >Search your Destination</div>
+                        <div class="destination">
+                            <label for="city" >Enter your destination</label>
+                          </div>
+                          
+                        <div class="form-group ">
+                            <input type="text" class="form-control" placeholder="Enter Your Name">
+                        </div>
+                        <div class="destination">
+                            <label for="city" >Enter your date</label>
+                        </div>
+                        <div class="form-group">
+                            <input autocomplete="off" type="date" class="form-control" placeholder="Select your date">
+                        </div>
+                        <div class="form-group">
+                            <div class="lable_total flex">
+                                  <label class="destination"  for="price">Max Price : <span id="result">2500</span> 
+                                </label>
+                            </div>
+                            <input id="mySlider" type="range" min="0" max="10000" value="2500"  style="width: 215px;">
+                            <script>
+                                mySlider.oninput = showSliderValue;
+                                function showSliderValue() {
+                                    result.innerText = this.value;
+                                }
+                            </script>
+                        </div>
+                    </form>
+                </div>
+
+                <a href="./booking.html" class="button">
+                    <span class="material-symbols-outlined">
+                        how_to_reg
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+
+    <section class="container">
+        <div class="text">
+            <h2>We have the best services available for you!</h2>
+        </div>
+        <div class="rowitems">
+
+            <div class="container-box">
+                <div class="container-image">
+                    <img src="./assets/files/1a.jpg" alt="Flight Services">
+                </div>
+                <h4>Airport Services</h4>
+                <p>Pick and Drop</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-image">
+                    <img src="./assets/files/2a.jpg" alt="Food Services">
+                </div>
+                <h4>Food Services</h4>
+                <p>Catering</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-image">
+                    <img src="./assets/files/3a.jpg" alt="Travel Services">
+                </div>
+                <h4>Travel Services</h4>
+                <p>Pick and Drop</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-image">
+                    <img src="./assets/files/4a.jpg" alt="Hotel Services">
+                </div>
+                <h4>Hotel Services</h4>
+                <p>Check-in/out</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages -->
+
+    <section class="package" id="package">
+        <div class="package-title">
+            <h2>Packages</h2>
+        </div>
+
+        <div class="package-content">
+            <div class="text-block">
+                <h3>Best Selling Destinations</h3>
+            </div>
+
+            <a href="./package.html#2700">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/lakshmanjhula.jpg" alt="">
+                        <h3>Starting at Rs.2,700 </h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.html#37700">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/tal.jpg" alt="">
+                        <h3>Starting at Rs.7,700/-</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.html#47500">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/hmstay.jpg" alt="">
+                        <h3>Starting at Rs.7,500/-</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.html#58500">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/auli.jpg" alt="">
+                        <h3>Starting at Rs.58,500/-</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./package.html#59500">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/val.png" alt="">
+                        <h3>Starting at Rs.19,500/-</h3>
+                    </div>
+                </div>
+            </a>
+            <a href="./package.html#59500">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/village.png" alt="">
+                        <h3>Starting at Rs.25,500/-</h3>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <section class="package2" id="package">
+        <div class="pack5-content">
+
+            <div class="text-block">
+                <h3>Bestsellers at EPIC Discounts</h3>
+                
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/trekking1.jpeg" alt="">
+                    <h3>TREKKING</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/rafting.jpg" alt="">
+                    <h3>RAFTING</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/paragliding.jpg" alt="">
+                    <h3>PARAGLIDING</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/bungee.jpg" alt="">
+                    <h3>BUNGEE JUMPING</h3>
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+
+    <section class="package2" id="package">
+
+        <div class="package2-content">
+            <div class="text-block">
+                <h3>Jackpot Deals on Top Selling Packages</h3>
+                <p>Save extra with our exclusive deals!</p>
+            </div>
+
+            <a href="./assets/package.html#6000">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/rishikeshevening.jpg" alt="">
+                        <h3> RISHIKESH </h3>
+                    </div>
+                </div>
+            </a>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/nanital.jpg" alt="">
+                    <h3>NANITAL</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/kausani.jpg" alt="">
+                    <h3>KAUSANI</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/files/gangotri.jpg" alt="">
+                    <h3>GANGOTRI</h3>
+                </div>
+            </div>
+
+            <a href="./package.html#6000">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/files/aulihill.jpg" alt="">
+                        <h3>AULI</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Explore Button -->
+
+        <div style="text-align:center">
+            <button type="button" class="btn btn-primary"> <a href="package.html">Explore More</a></button>
+        </div>
+    </section><br><hr><br>
+
+   
+    <!-- FAQ;s -->
+
+    <section><br>
+        <div class="destination-title">
+            <h2>Best Destinations to Visit in UTTARAKHAND</h2>
+        </div>
+        <div class="container1">
+            <style>
+                .destination-title {
+                    text-align: center;
+                }
+
+                .container1 {
+                    display: grid;
+                    position: relative;
+                    grid-template-columns: auto auto auto;
+                    background: color #f6f1f1;
+                    padding: 48px;
+                    font-size: 12px;
+                    gap: 10px;
+                    margin-top: 5px;
+                    margin-left: 100px;
+                    margin-right: 100px;
+                    margin-bottom: 1px;
+
+                    .loc-detail li {
+                        font-size: 10px;
+                        color: black;
+                        margin-left: 15px;
+                        margin-bottom: 2px;
+                        list-style-type: circle;
+                    }
+
+                    .box {
+                        background: inherit;
+                        color: black;
+                        box-shadow: 5px 5px 10px #3b3737;
+                        padding: 5px;
+                        border-radius: 15px;
+                    }
+                    div > h1{
+                    text-align: center;
+                    }
+                }
+            </style>
+
+            <div class="box">
+                <h1>RISHIKESH</h1></br>
+                <p>Rishikesh
+
+                    (What to know)-
+                    
+                    Rishikesh is also known for its connection with The Beatles. In February 1968, members of the legendary English rock band visited Maharishi Mahesh Yogi's ashram (popularly known as the Beatles Ashram) to learn transcendental meditation. The band composed nearly 48 songs during their time at the Maharishi's ashram. John Lennon recorded a song titled, 'The Happy Rishikesh Song' after his visit. Several other international artists, including Mike Love of the Beach Boys, Paul Horn, Donovan and Gyp Mills, visited the site to contemplate and meditate.
+                    <br>
+                    <br><b>Best time to visit :</b> The best time to visit Rishikesh for a balanced experience of pleasant weather and 
+                    available activities is during the autumn (October to November) and during the late winters (February).<br>
+                    
+                    <br> <b>Places to visit:</b>
+                <ul class="loc-detail">
+                    <li>PARMATH NIKETAN </li>
+                    <li>LAKSHAMAN JHULA</li>
+                    <li>RAM JHULA</li>
+                    <li> JAHANKI SETU</li>
+                    <li> BEATLES ASHRAM</li>
+                    <li> TRIVENI GHAT</li>
+                </ul>
+
+                <br> 
+                </p>
+            </div>
+
+            <div class="box">
+                <h1>
+                    NAINITAL
+                </h1></br>
+                <p>
+                    
+                    Nainital 
+
+                    (What to know)-
+                    
+                    The summer capital of the United Provinces during the British era, the town has a strong colonial heritage with vibrant clusters of villas and bungalows. Homesick Britishers used to flock to this quaint town spread over a forested valley. It is also known for the revered Naina Devi temple, which stands on the edge of the lake. Nainital is not only a famous tourist destination but is also known for its prestigious educational institutions and schools, which have stood since the British era. 
+                     <br>
+                    <br> <b>Best time to visit:</b> Nainital is an all-year destination but the weather is the best between March and June. It receives heavy snowfall in winter and turns into a white wonderland, making it a popular Christmas and New Year destination<br>
+
+                    <br> <b>Places to visit:</b>
+                <ul class="loc-detail">
+                    <li>NAINI LAKE</li>
+                    <li>MALL ROAD, NAINITAL</li>
+                    <li>ECO CAVE GARDENS</li>
+                    <li>KAINCHI DHAM</li>
+                    <li>NAINA DEVI BIRD RESERVE</li>
+                    <li>TIFFIN TOP</li>
+                </ul>
+                <br> 
+                </p>
+            </div>
+
+            <div class="box">
+                <h1>MUSSOORIE</h1></br>
+                <p>
+                    (What to know) -
+
+                    Mussoorie, also known as Queen of the Hills, is among the most popular hill stations of the country. A Britisher, Captain Frederick Young, accompanied by an official named FJ Shore, had climbed up the hill from the Doon valley in 1827 and found this ridge offering great views and a salubrious climate. This visit laid the foundation for this grand hill station. Mussoorie is a charming hill station offering a perfect blend of natural beauty, colonial charm, and a range of activities. 
+                    
+                    <br>
+                    <br> <b> Best Time to Visit:</b> (Best time to go)-
+
+                    The best time to visit Mussoorie is during summers. However, if you are looking for a secluded holiday, come here during winters to witness the snowfall. <br>
+
+                    <br> <b> Places to Visit: </b><br>
+                <ul class="loc-detail">
+                    <li>KEMPTY FALLS</li>
+                    <li>GUN HILL</li>
+                    <li>MALL ROAD, MUSSOORIE</li>
+                    <li>LAL TIBBA</li>
+                    <li>COMPANY GARDEN</li>
+                    <li>MUSSOORIE LAKE</li>
+                </ul>
+                <br>
+                </p>
+            </div>
+
+            <div class="box">
+                <h1>AULI</h1></br>
+                <p>(WHAT TO KNOW)-
+
+                    The small yet picture-perfect town of Auli is India's premier ski resort destination. Originally developed as a paramilitary base, Auli's skiing slopes are popular among tourists and professionals alike. In winter, Auli hosts several snow adventure events. Situated at an altitude ranging from 2,519 meters to 3,050 meters above sea level, Auli offers breathtaking views of the Himalayan peaks including Nanda Devi, Mana Parvat, and Kamet.
+                    
+                     <br>
+                    <br> <b>Best Time to Visit:</b> For skiing enthusiasts, January to March is the best time to visit. For nature lovers, October to March is the most appropriate time. <br>
+
+                    <br><b>Places to Visit:</b>
+                <ul class="loc-detail">
+                    <li>NANDA DEVI NATIONAL PARK</li>
+                    <li>TRISHUL PEAK</li>
+                    <li>GORSON BUGYAL</li>
+                    <li>BHAVISHYA BADRI</li>
+                    <li>CHENAB LAKE</li>
+                    <li>AULI ROPEWAY</li>
+                </ul>
+                <br>
+                </p>
+            </div>
+
+            <div class="box">
+                <h1>KAUSANI</h1></br>
+                <p> (WHAT TO KNOW)- The ideal way to explore this picturesque hill-station is to come without a plan. 
+                    You can spend an entire day just watching the magical play of colours on the mountain peaks surrounding 
+                    Kausani. This village, perched on a ridge covered with chir and blue pine forests, is most well-known for the 
+                    spectacular panoramic view of the Himalayan peaks like Trishul, Nanda Devi, and the mighty Panchachuli.<br>
+
+                    <br> <b>Best Time to Visit:</b> From September to May is the ideal time to visit Kausani. March to May are summer months with pleasant temperature, and gets cool from October to February.<br>
+
+                    <br><b>Places to Visit: </b>
+                <ul class="loc-detail">
+                    <li>ANASAKTI ASHRAM</li>
+                    <li>BAIJNATH TEMPLE</li>
+                    <li>RUDRADHARI FALLS AND CAVES</li>
+                    <li>GWALDHAM</li>
+                    <li>PINNATH</li>
+                    <li>KAUSANI TEA ESTATE</li>
+                </ul>
+                <br>
+                </p>
+            </div>
+
+            <div class="box">
+                <h1>HARIDWAR</h1></br>
+                <p> 
+                    (WANT TO KNOW)- Haridwar is an ancient city located in the state of Uttarakhand, India, situated 
+                    at the foothills of the Himalayas along the banks of the Ganges River. It holds immense 
+                    spiritual significance for Hindus and is one of the seven holiest places (Sapt Puri) in Hinduism. 
+                    This city is home to several ancient temples and ghats where devotees gather for prayers, rituals, 
+                    and bathing in the holy Ganges River.<br>
+
+                    <br> <b> Best time to visit:</b>The best time to visit Haridwar is October to February. 
+                    Being the peak season expect a little crowd during this time. March to June experiences moderate weather. <br>
+
+                    <br><b>Places to visit:</b>
+                <ul class="loc-detail">
+                    <li>HAR KI PAURI</li>
+                    <li>MANSA DEVI TEMPLE</li>
+                    <li>CHANDI DEVI TEMPLE</li>
+                    <li>SAPT SAROVAR</li>
+                    <li>RAJAJI NATIONAL PARK</li>
+                    <li>PAWAN DHAM</li>
+                </ul>
+                </p>
+
+            </div>
+        </div>
+    </section><hr><br>
+
+     <!-- Locations -->
+
+     <section class="locations" id="locations">
+        <div class="package-title">
+            <h2>Locations</h2>
+        </div>
+
+        <div class="location-content">
+            <a href="./locations.html">
+                <div class="col-content">
+                    <img src="./assets/files/nandadevi.jpg" alt="">
+                    <h5>NANDA DEVI</h5>
+                    
+                </div>
+            </a>
+            <a href="./locations.html#geneva">
+                <div class="col-content">
+                    <img src="./assets/files/kedarnath.jpg" alt="">
+                    <h5>KEDARNATH</h5>
+                   
+                </div>
+            </a>
+            <a href="./locations.html#istanbul">
+                <div class="col-content">
+                    <img src="./assets/files/jimcorbett.jpg" alt="">
+                    <h5>JIM CORBETT NATIONAL PARK</h5>
+                    
+                </div>
+            </a>
+
+            <a href="./locations.html#paris">
+                <div class="col-content">
+                    <img src="./assets/files/village.png" alt="">
+                    <h5>CHOPTA</h5>
+                    
+                </div>
+            </a>
+
+            <a href="./locations.html#bali">
+                <div class="col-content">
+                    <img src="./assets/files/valleyofflowers.jpg" alt="">
+                    <h5>VALLEY OF FLOWERS</h5>
+                
+                </div>
+            </a>
+
+            <a href="./locations.html#dubai">
+                <div class="col-content">
+                    <img src="./assets/files/haridwar.jpg" alt="">
+                    <h5>HARIDWAR</h5>
+                   
+                </div>
+            </a>
+         
+        </div>
+    </section><br>
+
+    <section class="faq">
+
+        <div class="container2">
+            <style>
+                .container2 {
+                    position: relative;
+                    grid-template-columns: auto auto auto;
+                    gap: 5%;
+                    padding: 35px;
+                    margin-top: 50px;
+                    margin-left: 35px;
+                    margin-right: 34px;
+                    border-radius: 10px;
+                    font-size: 12px;
+                    color: black;
+                    background-color: white;
+                    box-shadow: 5px 5px 10px #3b3737;
+                }
+            </style>
+
+            <div> <br>
+                <h1 class="faqh1">FAQs - Frequently Asked Questions</h1>
+            </div>
+
+            <p><br>
+            <h3> What kind of destinations can I choose for travelling?</h3> <br>
+            <p> You can choose any destination for travel as per your mood. For an action-packed holiday, you can choose
+                wildlife, trekking and other adventurous destinations. For a romantic holiday with your special someone,
+                you can choose from a range of couple-friendly destinations. You can also choose the kind of holiday you
+                want based on the destination you like—whether hills, mountains, heritage or pilgrimage sites.
+            </p><br>
+            <hr>
+
+            <br>
+            <h3> Can I opt for a budget-friendly holiday?</h3><br>
+            <p>
+                Yes, you can. All you have to do is set an approximate expenditure amount in your mind before starting
+                exploring the ideas here. You can search for a suitable destination for your travel in any range from
+                Rs. 10,000 to Rs. 50,000. It is advisable to make all the bookings in advance in order to avoid change
+                in prices.</p><br>
+            <hr>
+
+            <br>
+            <h3> Which time of the year is best suited for booking a holiday?</h3><br>
+            <p>x
+                Holidays can be booked throughout the year. You only need to select the month in which you are planning
+                to travel. Our curated list of ideas is designed in such a way that you will be able to see only those
+                destinations which are most suitable for that particular month of the year. If you select a combination
+                of filters defining your month, budget and purpose of travel, you will get the appropriate destination
+                name and other details.</p><br>
+            <hr>
+
+            <br>
+            <h3>What all will I get in a holiday idea?</h3>
+            <p>Once you choose a destination, it will give you complete details of all the unique things about that
+                place that must not be missed, including most visited local sites, best places to stay and all the
+                memorable experiences that you can indulge in. You will be given multiple options of hotels, resorts and
+                guest houses to choose from depending on your budget. </p> <br>
+            <hr>
+            </p>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+
+    <section class="newsletter">
+        <div class="newstext">
+            <h2>Newsletter</h2>
+            <p>Subscribe to get offers and latest<br>updates every week!</p>
+        </div>
+
+        <div class="send">
+            <form action="">
+                <input type="email" name="emailid" placeholder="E-mail" required>
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <div class="foot">
+            <div class="footer-content">
+
+                <div class="footlinks">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="./booking.html">Register</a></li>
+                        <li><a href="./info.html">About Us</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footlinks">
+                    <h4>Connect</h4>
+                    <div class="social">
+                        <a href="https://www.facebook.com/yash.chatrath.1/" target="_blank"><i
+                                class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/yash_120805/" target="_blank"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a href="https://www.linkedin.com/in/yash-chatrath-73924a256/" target="_blank"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/Yash-707" target="_blank"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="end">
+            <p>Copyright © 2024 Mount-Trailers All Rights Reserved.<br></p>
+        </div>
+    </section>
+ <SCRIPT type="text/javascript">
+        function JavaBlink() {
+           var blinks = document.getElementsByTagName('JavaBlink');
+           for (var i = blinks.length - 1; i >= 0; i--) {
+              var s = blinks[i];
+              s.style.visibility = (s.style.visibility === 'visible') ? 'hidden' : 'visible';
+           }
+           window.setTimeout(JavaBlink, 500);
+        }
+        if (document.addEventListener) document.addEventListener("DOMContentLoaded", JavaBlink, false);
+        else if (window.addEventListener) window.addEventListener("load", JavaBlink, false);
+        else if (window.attachEvent) window.attachEvent("onload", JavaBlink);
+        else window.onload = JavaBlink;
+      </SCRIPT>
+</body>
+
+</html>
